@@ -1,16 +1,27 @@
-# n2m4
+# N2M4
 
-A new Flutter project.
+## Introdução
 
-## Getting Started
+Este repositório contém o projeto N2m4 em Flutter, projetado para fins acadêmicos. O aplicativo ExploreMundo atende as demandas de uma empresa fictícia de turismo, permitindo que os usuários visualizem e reservem pacotes de viagens.
 
-This project is a starting point for a Flutter application.
+## Primeiros Passos
 
-A few resources to get you started if this is your first Flutter project:
+### Pré-requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Certifique-se de ter o Flutter instalado no seu sistema. Para instruções detalhadas, consulte o [guia de instalação do Flutter](https://docs.flutter.dev/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/jeffersonponte/n2m4.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd n2m4
+    ```
+3. Execute o aplicativo:
+    ```bash
+    flutter run
+    ```
+4. Pronto! O aplicativo será iniciado no emulador ou dispositivo conectado.

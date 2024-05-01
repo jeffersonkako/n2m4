@@ -21,9 +21,7 @@ class DestinationDetailScreen extends StatelessWidget {
           ImageSection(imagePath: destination.imagePath),
           TitleSection(name: destination.name, location: destination.location),
           const ButtonSection(),
-          TextSection(
-              description: destination
-                  .description), 
+          TextSection(description: destination.description),
         ],
       ),
     );
@@ -77,7 +75,7 @@ class TitleSection extends StatelessWidget {
               ],
             ),
           ),
-          Icon(Icons.star, color: Colors.red[500]),
+          const Icon(Icons.star, color: Colors.amber),
           const Text('41'),
         ],
       ),
@@ -94,9 +92,9 @@ class ButtonSection extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        _buildButtonColumn(color, Icons.call, 'CALL'),
-        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
-        _buildButtonColumn(color, Icons.share, 'SHARE'),
+        _buildButtonColumn(color, Icons.call, 'CONTATO'),
+        _buildButtonColumn(color, Icons.near_me, 'ROTA'),
+        _buildButtonColumn(color, Icons.share, 'COMPARTILHAR'),
       ],
     );
   }
