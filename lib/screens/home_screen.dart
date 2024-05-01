@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:n2m4/screens/about_screen.dart';
+import 'package:n2m4/screens/contact_screen.dart';
 import 'package:n2m4/screens/destinations_tab.dart';
+import 'package:n2m4/screens/packages_screen.dart';
 import 'package:n2m4/widgets/custom_search_delegate.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -32,9 +35,9 @@ class HomeScreen extends StatelessWidget {
         body: const TabBarView(
           children: [
             DestinationsTab(),
-            Icon(Icons.card_travel),
-            Icon(Icons.contact_mail),
-            Icon(Icons.info),
+            PackagesScreen(),
+            ContactScreen(),
+            AboutScreen(),
           ],
         ),
       ),
